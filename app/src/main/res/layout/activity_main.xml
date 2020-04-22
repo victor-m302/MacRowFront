@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_wood"
+    android:id="@+id/rootRL"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/macFeiLogo"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        app:srcCompat="@drawable/mac_fei_logo" />
+
+    <ImageView
+        android:id="@+id/feiLogo"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="10dp"
+        app:srcCompat="@drawable/fei" />
+
+    <RelativeLayout
+        android:id="@+id/layoutREL"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:background="#46000000">
+
+        <TextView
+            android:id="@+id/welcome_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="80dp"
+            android:gravity="center"
+            android:text="Bem Vindo ao Aplicativo da Mac FEI"
+            android:textColor="#ffffff"
+            android:textSize="24sp" />
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/avancar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/layoutREL"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-88dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#64B5F6"
+        android:paddingHorizontal="120dp"
+        android:text="Avançar"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loginLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    tools:context=".NewAccActivity">
+
+
+
+    <ImageView
+        android:id="@+id/login_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_new_acc_opacity" />
+
+
+    <ImageView
+        android:id="@+id/login_header"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:src="@drawable/create" />
+
+    <!-- nome completo -->
+    <EditText
+        android:id="@+id/nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_user_iconuser"
+        android:drawableLeft="@drawable/ic_user_iconuser"
+        android:layout_alignBottom="@+id/login_header"
+        android:layout_marginBottom="-70dp"
+        android:ems="15"
+        android:textColor="#bfbfbf"
+        android:inputType="textPersonName"
+        android:layout_centerInParent="true"
+        android:drawablePadding="5dp"
+        android:text="Nome Completo" />
+
+
+    <!-- email -->
+    <EditText
+        android:id="@+id/celular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_icon_mail"
+        android:drawableLeft="@drawable/ic_icon_mail"
+        android:layout_alignBottom="@+id/login_header"
+        android:layout_marginBottom="-140dp"
+        android:ems="15"
+        android:textColor="#bfbfbf"
+        android:inputType="textPersonName"
+        android:layout_centerInParent="true"
+        android:drawablePadding="5dp"
+        android:text="E-mail" />
+
+
+    <!-- celular -->
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_icon_phone"
+        android:drawableLeft="@drawable/ic_icon_phone"
+        android:layout_alignBottom="@+id/login_header"
+        android:layout_marginBottom="-210dp"
+        android:ems="15"
+        android:textColor="#bfbfbf"
+        android:inputType="textPersonName"
+        android:layout_centerInParent="true"
+        android:drawablePadding="5dp"
+        android:text="Celular" />
+
+
+    <!-- senha -->
+    <EditText
+        android:id="@+id/senha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_lock"
+        android:drawableLeft="@drawable/ic_lock"
+        android:layout_alignBottom="@+id/login_header"
+        android:layout_marginBottom="-280dp"
+        android:ems="15"
+        android:textColor="#bfbfbf"
+        android:inputType="textPassword"
+        android:layout_centerInParent="true"
+        android:drawablePadding="5dp"
+        android:text="password"
+        />
+
+<!--botao login-->
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/senha"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-58dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#64B5F6"
+        android:paddingHorizontal="120dp"
+        android:text="Criar Conta"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/msgConta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Possui Conta?"
+        android:textStyle="bold"
+        android:textColor="#bfbfbf"
+        android:layout_alignBottom="@+id/login_btn"
+        android:layout_marginBottom="-40dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/fazer_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/msgConta"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-25dp"
+        android:backgroundTint="@android:color/transparent"
+        android:paddingHorizontal="120dp"
+        android:text="Fazer Login"
+        android:textColor="#1fc7ff" />
+</RelativeLayout>
