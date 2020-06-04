@@ -11,9 +11,10 @@ class Aval : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_aval)
+        supportActionBar?.hide()
 
 
-        val click = findViewById<Button>(R.id.button) as Button
+        val click = findViewById<Button>(R.id.button_rating) as Button
         val ratingBar = findViewById<RatingBar>(R.id.rating) as RatingBar
 
         click.setOnClickListener {
