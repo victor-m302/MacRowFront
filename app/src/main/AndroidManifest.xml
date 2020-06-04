@@ -9,7 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".NewAccActivity"></activity>
+        <activity android:name=".MainMenu"></activity>
+        <activity android:name=".Aval" />
+        <activity android:name=".Config" />
+        <activity android:name=".Pagto" />
+        <activity android:name=".Prato" />
+        <activity android:name=".Painel" />
+        <activity android:name=".Pedidos" />
+        <activity android:name=".NewAccActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
