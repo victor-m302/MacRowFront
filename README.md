@@ -19,10 +19,23 @@ Repositório criado para abrigar o Front End feito em Kotlin do projeto MacRow.
 <img src="screenshots/device-2020-06-09-215249.png" width="280px" height="512px">
 
 
-
 <h2>Tela de Pedidos</h2>
   <p>Os produtos serão exibidos na tela. [EM BREVE]</p>
 <img src="screenshots/device-2020-06-09-215538.png" width="280px" height="512px">
+
+<h2>Tela de Avaliação</h2>
+  <p>O usuário pode avaliar o serviço.</p>
+<img src="screenshots/device-2020-06-09-215416.png" width="280px" height="512px">
+
+<h2>Aviso de Saída</h2>
+  <p>Para não correr o risco de perder o preenchimento do formulário,
+  há uma caixa de diálogo que interrompe uma sasída inesperada.</p>
+<img src="screenshots/device-2020-06-09-215528.png" width="280px" height="512px">
+
+
+
+
+
 
 
 
