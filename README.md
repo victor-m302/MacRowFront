@@ -29,7 +29,7 @@ Repositório criado para abrigar o Front End feito em Kotlin do projeto MacRow.
 
 <h2>Aviso de Saída</h2>
   <p>Para não correr o risco de perder o preenchimento do formulário,
-  há uma caixa de diálogo que interrompe uma sasída inesperada.</p>
+  há uma caixa de diálogo que interrompe uma saída inesperada.</p>
 <img src="screenshots/device-2020-06-09-215528.png" width="280px" height="512px">
 
 
